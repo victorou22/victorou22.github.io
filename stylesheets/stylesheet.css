@@ -75,7 +75,7 @@ a {
 #main {
   max-width: 760px;
   margin: 0 auto;
-  padding: 64px 32px 96px;
+  padding: 140px 32px 96px;
 }
 
 /* ── Hero ────────────────────────────────────────────────────────── */
@@ -84,19 +84,19 @@ a {
 }
 
 .hero h1 {
-  font-size: 36px;
+  font-size: 48px;
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.2;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .hero-bio {
-  font-size: 17px;
+  font-size: 21px;
   color: var(--muted);
   line-height: 1.65;
   max-width: 520px;
-  margin-bottom: 28px;
+  margin-bottom: 36px;
 }
 
 .hero-links {
@@ -108,7 +108,7 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--muted);
   padding: 7px 14px;
@@ -134,7 +134,7 @@ a {
 }
 
 .content-section h2 {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -154,7 +154,7 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  font-size: 15px;
+  font-size: 17px;
   padding: 14px 0;
   color: var(--text);
   transition: color 0.15s;
@@ -170,23 +170,6 @@ a {
   flex-shrink: 0;
 }
 
-/* ── Footer ──────────────────────────────────────────────────────── */
-.site-footer {
-  border-top: 1px solid var(--border);
-  padding: 20px 32px;
-  font-size: 14px;
-  color: var(--muted);
-}
-
-.site-footer a {
-  color: var(--muted);
-  transition: color 0.15s;
-}
-
-.site-footer a:hover {
-  color: var(--accent);
-}
-
 /* ── Responsive ──────────────────────────────────────────────────── */
 @media (max-width: 600px) {
   .site-nav,
@@ -196,14 +179,14 @@ a {
   }
 
   #main {
-    padding: 48px 20px 80px;
+    padding: 96px 20px 80px;
   }
 
   .hero h1 {
-    font-size: 28px;
+    font-size: 36px;
   }
 
   .hero-bio {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
